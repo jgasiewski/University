@@ -1,0 +1,15 @@
+015
+63.13
+64.41.12
+if (12+7)*9 /*Komentarz*/!= 15 then once
+choose during 5.0 between 3 and
+modify x = 5
+[Test]=>"ABC"
+[/Test]
+//Komentarz
+!&#
+"Lorem ipsum"
+var x = -3
+random looped { "Test", "Test2"}
+> >= <= == != 
+->"XD"

@@ -1,0 +1,6 @@
+/*Komentarz*/
+//Komentarz
+
+[Test]
+random looped {modify}
+[/Test]

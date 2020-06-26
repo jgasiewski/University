@@ -1,0 +1,16 @@
+15 30.61 /*Komentarz*/ "Test"
+0.15
+"Test z
+ przejściem między \n liniami"
+//Komentarz
+append var [Begin] [/End]
+-> {}() =>
+random looped
+if then once
+choose during between and
+condition
+modify
+= < <= > >= == !=
++-or
+*/and
+true false

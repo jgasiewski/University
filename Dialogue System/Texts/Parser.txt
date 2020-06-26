@@ -1,0 +1,22 @@
+var x
+
+[Test]
+modify x = 5
+modify x = 3
+if 3*4 == 12 then "Text" => if true then once Branch
+modify x = (5+2)*3+4
+if x == 23 then "test1"
+"test2"
+[/Test]
+
+[Branch]
+"ABC"
+choose { -> "A" {"A2" => end} 
+		 -> "B" {"B2"}
+		 -> "C" {"C2"}
+	   }
+"DEF"
+random {"R1", "R2", "R3", "R4", "R5"}
+looped {"A3", "B3", "C3", random {"D1", "D2", modify x = 2.25}, {"E1", "E2"}}
+"GHI"
+[/Branch]
